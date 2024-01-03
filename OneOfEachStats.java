@@ -14,7 +14,6 @@ public class OneOfEachStats {
 		int seed = Integer.parseInt(args[1]);
 		// Initailizes a random numbers generator with the given seed value
         Random generator = new Random(seed);  
-		 int T = Integer.parseInt(args[0]);
         int two = 0;
         int three = 0;
         int four = 0;
