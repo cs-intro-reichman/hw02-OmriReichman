@@ -8,7 +8,7 @@ public class Reverse {
         int i = 0;
         int n = s.length();
         String reverse = "";
-        char m = s.charAt((n+1)/2);
+        char m = s.charAt((n-1)/2);
         while (i<n) {
            char c = s.charAt(n-1-i);
           reverse = reverse + c;
