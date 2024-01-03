@@ -25,7 +25,7 @@ public class OneOfEachStats {
         int n = 0;
         
         while ( b || g) {
-           double x = generator.next.Double();
+           double x = generator.nextDouble();
            if (x>=0.5) {
              b = false;
            } if (x<0.5) {
